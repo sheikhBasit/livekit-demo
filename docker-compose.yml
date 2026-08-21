@@ -1,0 +1,16 @@
+services:
+  server:
+    build: ./server
+    ports:
+      - "8001:8000"
+    env_file:
+      - ./server/.env
+
+  client:
+    build: ./client
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_TOKEN_ENDPOINT=http://localhost:8001/api/token
+    depends_on:
+      - server
