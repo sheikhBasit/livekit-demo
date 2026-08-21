@@ -1,5 +1,7 @@
 # livekit-demo
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 Minimal Google Meet–style video call demo on [LiveKit](https://livekit.io/): a FastAPI token
 server plus a React frontend using LiveKit's prebuilt `VideoConference` UI (tile grid, mute,
 camera toggle, screen share, participant list).
