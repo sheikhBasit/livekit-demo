@@ -1,4 +1,11 @@
-# livekit-demo
+# LiveKit Demo
+
+## Test Credentials
+The database has been seeded with the following test accounts. The password for all accounts is `password`.
+
+*   **Admin:** `admin@academy.com`
+*   **Teacher:** `teacher1@academy.com`
+*   **Student:** `student1@academy.com`
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
